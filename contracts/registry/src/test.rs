@@ -1,8 +1,8 @@
 #![cfg(test)]
 
 use super::*;
-use soroban_sdk::{Env, Address, String};
 use soroban_sdk::testutils::Address as _;
+use soroban_sdk::{Address, Env, String};
 
 #[test]
 fn test_registry_and_counter() {
@@ -14,7 +14,7 @@ fn test_registry_and_counter() {
 
     let user_1 = Address::generate(&env);
     let user_2 = Address::generate(&env);
-    
+
     let content_1 = String::from_str(&env, "First entry");
     let content_2 = String::from_str(&env, "Second entry");
 

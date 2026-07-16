@@ -20,6 +20,12 @@ jobs:
           toolchain: 1.78.0
           target: wasm32-unknown-unknown
 
+      - name: Check Formatting
+        run: cargo fmt --manifest-path contracts/Cargo.toml --all -- --check
+
+      - name: Run Clippy Lints
+        run: cargo clippy --manifest-path contracts/Cargo.toml --all-targets -- -D warnings
+
       - name: Run Smart Contract Tests
         run: |
           cargo test --manifest-path contracts/Cargo.toml
