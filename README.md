@@ -117,3 +117,4 @@ The project includes a robust, pre-configured CI/CD pipeline defined in [.github
    - Runs code formatting and linting: `npm run lint` (validating unused imports, React patterns, and TypeScript/ESLint warnings).
    - Runs frontend unit tests: `npm run test` (verifying wallets kit, hooks connection flows, component rendering states).
    - Verifies the production build: `npm run build` (confirming package bundles and CSS styles compile cleanly).
+
