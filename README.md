@@ -6,7 +6,7 @@ A production-ready, high-performance decentralized application (dApp) that enabl
 
 ## 🔗 Submission Deliverables
 
-- **🚀 Live Demo**: https://steller-l-3.vercel.app/
+- **🚀 Live Demo**: https://stellar-level3.vercel.app/
 - **🎥 Demo Video**: https://drive.google.com/file/d/1lt32Fz0w8vq2pTq-jKE6twZeLSsfosOD/view?usp=sharing
 - **📜 Deployed Registry Contract ID**: `CB62EURWHESKXC4DSVFEGYMNSY7K3XHOUIZDUUWEHLIRSQ6WB3ZM2M7J`
 - **⛓️ Interaction Transaction Hash**: `374f405319d659cddfa142a58efae4757737940ca9a572e1184a7c16425d639a`
@@ -37,7 +37,7 @@ A production-ready, high-performance decentralized application (dApp) that enabl
 StellarPay follows a modular, scalable architecture separating Soroban logic from the presentation layer.
 
 ```text
-steller-L-3/
+stellar_Level3/
 ├── contracts/               # Smart Contract logic (Soroban Registry/Rust)
 │   ├── registry/            # Main contract crate
 │   └── Cargo.toml           # Soroban Workspace
